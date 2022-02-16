@@ -1,0 +1,40 @@
+# Foor-loop 
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace CSharp_Shell
+{
+
+    public class Program 
+    {
+        public static void Main()
+        {  
+        	int i,a;
+        	Console.WriteLine("Enter Number");
+			a= Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("The table of given number is:- ");
+			
+				for(i=1;i<=10;i++)
+				{
+					Console.WriteLine(a*i);
+				}
+        	
+			
+        }
+    }
+} 
+Output:-Enter Number
+4
+The table of given number is:- 
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
